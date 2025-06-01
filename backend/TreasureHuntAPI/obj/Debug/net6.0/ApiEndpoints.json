@@ -1,0 +1,84 @@
+[
+  {
+    "ContainingType": "TreasureHuntAPI.Apis.TruasureMapApi",
+    "Method": "SaveAndSolve",
+    "RelativePath": "api/treasure",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "TreasureMapDto",
+        "Type": "TreasureHuntAPI.Models.TreasureMapDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TreasureHuntAPI.Apis.TruasureMapApi",
+    "Method": "GetAllMaps",
+    "RelativePath": "api/treasure/history",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TreasureHuntAPI.Apis.TruasureMapApi",
+    "Method": "GetHistory",
+    "RelativePath": "api/treasure/history/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TreasureHuntAPI.Apis.TruasureMapApi",
+    "Method": "ResolveAgain",
+    "RelativePath": "api/treasure/resolve/{id}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
